@@ -3,3 +3,9 @@ const sayHello = () => {
 };
 
 sayHello();
+
+const sayPay = () => {
+    console.log('byby');
+}
+
+sayPay();
