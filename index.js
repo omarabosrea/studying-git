@@ -9,3 +9,5 @@ const sayPay = () => {
 }
 
 sayPay();
+
+console.log('hello');
