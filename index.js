@@ -2,12 +2,14 @@ const sayHello = () => {
     console.log('hello world!!!'); 
 };
 
-sayHello();
 
 const sayPay = () => {
     console.log('byby');
 }
 
-sayPay();
 
-console.log('hello');
+function loggerMessage(functions){
+    functions.map(fun => fun());
+}
+
+loggerMessage([sayHello , sayPay])
