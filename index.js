@@ -15,3 +15,4 @@ function loggerMessage(functions){
 loggerMessage([sayHello , sayPay])
 
 console.log('omar44');
+
