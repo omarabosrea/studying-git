@@ -14,4 +14,4 @@ function loggerMessage(functions){
 
 loggerMessage([sayHello , sayPay])
 
-console.log('omar');
+console.log('omar44');
